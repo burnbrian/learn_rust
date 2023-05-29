@@ -1,12 +1,14 @@
-extern crate ferris_says;                                                       // import external crate
+extern crate ferris_says;
 
-use ferris_says::say;                                                           // required for 'say'
-use std::io::{ stdout, BufWriter };                                             // required to oneline 'say'
+use ferris_says::say;
+use std::io::{ stdout, BufWriter };
 
 fn main() {
-    let message = "What does the crab say?";                                    // message goes here
-    let width = 40;                                                             // set width of message
+    // message and message width
+    let message = "What does the crab say?";
+    let width = 40;
 
-    let mut writer = BufWriter::new(stdout());                                  // preferred for repeat writes
-    say(message, width, &mut writer).unwrap();                                  // send args to fsays
+    // send args to say function
+    let mut writer = BufWriter::new(stdout());
+    say(message, width, &mut writer).unwrap();
 }
