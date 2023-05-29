@@ -1,5 +1,5 @@
 # Instructions
-Ask a user for a number from 1 to 300. Display what range the number is from the following:
+Ask a user for a number from 1 to 300. Display what range the number is in from the following:
 
 * 1-100
 * 101-200
@@ -9,8 +9,8 @@ Ask a user for a number from 1 to 300. Display what range the number is from the
 1. Check edge cases to verify your logic, e.g. 201, 0, -1
 
 # Resources
-1. [The Rust Reference's](https://doc.rust-lang.org/reference/expressions/if-expr.html) documentation on `if expressions`.
-2. [The Rust Programming Language's](https://doc.rust-lang.org/book/appendix-02-operators.html) appendix of operators and symbols.
+1. [The Rust Reference's](https://doc.rust-lang.org/reference/expressions/if-expr.html) documentation on `if expressions`
+2. [The Rust Programming Language's](https://doc.rust-lang.org/book/appendix-02-operators.html) appendix of operators and symbols
 
 # Example Output
 ```terminal_session
