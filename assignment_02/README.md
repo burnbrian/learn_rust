@@ -13,9 +13,9 @@ Use the [ferris-says](https://crates.io/crates/ferris-says) library to print a w
 # Example Output
 ```terminal_session
 @burnbrian ➜ /workspaces/learn_rust/assignment_02 (main) $ cargo run
-Compiling assignment_02 v0.1.0 (/workspaces/learn_rust/assignment_02)
-Finished dev [unoptimized + debuginfo] target(s) in 0.33s
-Running `target/debug/assignment_02`
+   Compiling assignment_02 v0.1.0 (/workspaces/learn_rust/assignment_02)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.90s
+     Running `target/debug/assignment_02`
  _________________________
 < What does the crab say? >
  -------------------------
