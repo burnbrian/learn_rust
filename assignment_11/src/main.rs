@@ -3,7 +3,7 @@ use std::io::Write;
 
 fn main() {
     // prompt the user for a Celsius temperature
-    print!("What is the tempurature in celsius: ");
+    print!("What is the temperature in celsius: ");
     io::stdout().flush().unwrap();
 
     // define celsius
@@ -18,12 +18,12 @@ fn main() {
     let celsius:f64 = input_temp.trim().parse().unwrap();
 
     // print result of the conversion
-    println!("{} degrees celsius is {} degrees Ferhenheit.", 
-            celsius, celsius_to_ferhenheit(celsius));
+    println!("{} degrees celsius is {} degrees Fahrenheit.", 
+            celsius, celsius_to_fahrenheit(celsius));
 }
 
-fn celsius_to_ferhenheit(celsius: f64) -> f64 {
-    // convert celsius to ferhenheit
-    let ferhenheit = (celsius * 9.0 / 5.0) + 32.0;
-    ferhenheit
+fn celsius_to_fahrenheit(celsius: f64) -> f64 {
+    // convert celsius to fahrenheit
+    let fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
+    fahrenheit
 }
