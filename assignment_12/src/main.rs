@@ -19,9 +19,7 @@ fn main() {
             height: 60 + i,
         };
         // falls out of scope after referencing the struct area function
-        let width = rectangle.width;
-        let height = rectangle.height;
         println!("The area of a rectangle with width {} and height {} is {}.", 
-            width, height, rectangle.area());
+            rectangle.width, rectangle.height, rectangle.area());
     }
 }
